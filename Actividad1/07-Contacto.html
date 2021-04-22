@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1><a href="Actividad1/01-Index.html"><img src="img/LOGO.jpg" width="120" height="100"></a></h1>
+        </header>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="01-Index.html">Inicio</a></li>
+                <li><a href="02-Noticias.html">Noticias</a></li>
+                <li><a href="03-Quienes-somos.html">Quienes somos</a></li>
+                <li><a href="04-Publicaciones.html">Publicaciones</a></li>
+                <li><a href="05-Areas-de-actuacion.html">Areas de actuación</a></li>
+                <li><a href="06-Localizacion.html">Localización</a></li>
+                <li><a href="07-Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+
+        <section>
+
+
+            <h1>Contacto</h1>
+
+            <form action="procesarPeticion.jsp" method="POST">
+
+                <input type="text" name="nombre" placeholder="Nombre*" autofocus required />
+                <br />
+                <br />
+
+                <input type="text" name="apellidos" placeholder="Apellidos*" required />
+                <br />
+                <br />
+
+                <input type="email" name="email" placeholder="Email*" required />
+                <br />
+                <br />
+
+                <input type="text" name="dni" placeholder="Dni" pattern="[0-9]{8}[A-Za-z]{1}" />
+                <br />
+                <br />
+
+                <input type="tel" name="telefono" placeholder="Teléfono de contacto" />
+                <br />
+                <br />
+
+                <label for="fechaNacimiento"> Fecha de Nacimiento</label>
+                <input id="fechaNacimiento" type="date" name="fechaNacimiento" />
+                <br />
+                <br />
+                <input type="submit" value="Enviar" />
+            </form>
+
+        </section>
+        <aside>
+
+        </aside>
+
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
