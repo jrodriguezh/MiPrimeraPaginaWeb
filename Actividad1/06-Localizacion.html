@@ -30,16 +30,35 @@
 
 
         <section>
-
-            <h1>Localización:</h1>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minus aliquam exercitationem expedita, dolorum vel nobis molestiae mollitia eum! Ducimus quibusdam blanditiis voluptatem tenetur modi accusantium, consequatur officia totam laborum.</p>
-            </article>
-
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minus aliquam exercitationem expedita, dolorum vel nobis molestiae mollitia eum! Ducimus quibusdam blanditiis voluptatem tenetur modi accusantium, consequatur officia totam laborum.</p>
-            </article>
-
+            <style> 
+                #map {
+                height: 100%;
+              }
+             
+              html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+              }
+            </style> <div id ="map"> </div> 
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCKiIqCdZGrVxx06LSbe7uG3zXOq1Cz5k&callback=initMap" async defer></script>
+            <script>
+                
+              var map;
+               function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                  center: {lat:  40.3841265136407, lng: -3.6283135198131977},
+                  zoom: 13,
+                });
+                var marker = new google.maps.Marker({
+                  position: {lat: 43.542194, lng: -5.676875},
+                  map: map,
+              title: 'Acuario de Gijón'
+                });
+              }
+         
+              
+            </script>
         </section>
         <aside>
 
