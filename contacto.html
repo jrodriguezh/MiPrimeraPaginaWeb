@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style-body.css">
+    <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-footer.css">
+    <link rel="stylesheet" href="css/style-contacto.css">
+    <script src="https://kit.fontawesome.com/59095f720c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <h3 class="logo">Nombre<span>Página</span> </h3>
+            </div>
+
+            <div class="nav-btn">
+
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link">
+                            <a href="index.html">Inicio</a>
+                            
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Áreas de actuación <i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Actualidad<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="subarea1.html">Internacional</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="subarea2.html">Nacional</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="subarea3.html">Sociedad</a>
+                                                    
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="area2.html">Entrtenimiento</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="area3.html">Deportes</a>
+                                        
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link">
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="acerca.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="localizacion.html">Localizacion</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="log-sign">
+                    <a href="#" class="btn transparent">Log in</a>
+                    <a href="#" class="btn solid">Sign up</a>
+
+
+                </div>
+            </div>
+            <div class="hamburger-menu-container">
+
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h2>Formulario de Contacto</h2>
+        <form action="">
+            <fieldset class="personales">
+                <legend>Datos personales</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellidos" >Apellidos</label>
+                    <input type="text" placeholder="Escribe tus apellidos" required>
+                </div>
+                <div class="campo">
+                    <label for="dni">DNI</label>
+                    <input type="text" placeholder="Escribe tu DNI" required>
+                </div>
+                <div class="campo">
+                    <label for="nacimiento">Lugar de nacimiento</label>
+                    <input type="text" placeholder="Escribe tu lugar de nacimiento">
+                </div>
+                <div class="campo">
+                    <select name="provincia" id="provincia">
+                        <option value="alava">Álava</option>
+                        <option value="albacete">Albacete</option>
+                        <option value="alcicante">Alicante</option>
+                        <option value="almeria">Almería</option>
+                        <option value="asturias">Asturias</option>
+                        <option value="avila">Ávila</option>
+                        <option value="badajoz">Badajoz</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="burgos">Burgos</option>
+                        <option value="caceres">Cáceres</option>
+                        <option value="cadiz">Cádiz</option>
+                        <option value="cantabria">Cantabria</option>
+                        <option value="castellon">Castellón</option>
+                        <option value="ciudadreal">Ciudad Real</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="coruna">La Coruña</option>
+                        <option value="cuenca">Cuenca</option>
+                        <option value="gerona">Gerona</option>
+                        <option value="granada">Granada</option>
+                        <option value="guadalajara">Guadalajara</option>
+                        <option value="guipuzcoa">Guipúzcoa</option>
+                        <option value="huelva">Huelva</option>
+                        <option value="huesca">Huesca</option>
+                        <option value="baleares">Islas Baleares</option>
+                        <option value="jaen">Jaén</option>
+                        <option value="leon">León</option>
+                        <option value="lerida">Lérida</option>
+                        <option value="lugo">Lugo</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="murcia">Murcia</option>
+                        <option value="navarra">Navarra</option>
+                        <option value="orense">Orense</option>
+                        <option value="palencia">Palencia</option>
+                        <option value="palmas">Las Palmas</option>
+                        <option value="pontevedra">Pontevedra</option>
+                        <option value="rioja">La Rioja</option>
+                        <option value="salamanca">Salamanca</option>
+                        <option value="segovia">Segovia</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="soria">Soria</option>
+                        <option value="tarragona">Tarragona</option>
+                        <option value="tenerife">Santa Cruz de Tenerife</option>
+                        <option value="teruel">Teruel</option>
+                        <option value="toledo">Toledo</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="valladolid">Valladolid</option>
+                        <option value="vizcaya">Vizcaya</option>
+                        <option value="zamora">Zamora</option>
+                        <option value="zaragoza">Zaragoza</option>
+                        <option value="ceuta">Ceuta</option>
+                        <option value="melilla">Melilla</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+                <div class="campo">
+                    <label for="domicilio">Domicilio (calle, portal, piso)</label>
+                    <input type="text" placeholder="Escribe tu dirección" required>
+                </div>
+                <div class="campo">
+                    <label for="postal">Código postal</label>
+                    <input type="text">
+                </div>
+                <div class="campo">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" placeholder="Escribe tu localidad">
+                </div>
+                <div class="campo">
+                    <select name="provincia" id="provincia">
+                        <option value="alava">Álava</option>
+                        <option value="albacete">Albacete</option>
+                        <option value="alcicante">Alicante</option>
+                        <option value="almeria">Almería</option>
+                        <option value="asturias">Asturias</option>
+                        <option value="avila">Ávila</option>
+                        <option value="badajoz">Badajoz</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="burgos">Burgos</option>
+                        <option value="caceres">Cáceres</option>
+                        <option value="cadiz">Cádiz</option>
+                        <option value="cantabria">Cantabria</option>
+                        <option value="castellon">Castellón</option>
+                        <option value="ciudadreal">Ciudad Real</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="coruna">La Coruña</option>
+                        <option value="cuenca">Cuenca</option>
+                        <option value="gerona">Gerona</option>
+                        <option value="granada">Granada</option>
+                        <option value="guadalajara">Guadalajara</option>
+                        <option value="guipuzcoa">Guipúzcoa</option>
+                        <option value="huelva">Huelva</option>
+                        <option value="huesca">Huesca</option>
+                        <option value="baleares">Islas Baleares</option>
+                        <option value="jaen">Jaén</option>
+                        <option value="leon">León</option>
+                        <option value="lerida">Lérida</option>
+                        <option value="lugo">Lugo</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="murcia">Murcia</option>
+                        <option value="navarra">Navarra</option>
+                        <option value="orense">Orense</option>
+                        <option value="palencia">Palencia</option>
+                        <option value="palmas">Las Palmas</option>
+                        <option value="pontevedra">Pontevedra</option>
+                        <option value="rioja">La Rioja</option>
+                        <option value="salamanca">Salamanca</option>
+                        <option value="segovia">Segovia</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="soria">Soria</option>
+                        <option value="tarragona">Tarragona</option>
+                        <option value="tenerife">Santa Cruz de Tenerife</option>
+                        <option value="teruel">Teruel</option>
+                        <option value="toledo">Toledo</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="valladolid">Valladolid</option>
+                        <option value="vizcaya">Vizcaya</option>
+                        <option value="zamora">Zamora</option>
+                        <option value="zaragoza">Zaragoza</option>
+                        <option value="ceuta">Ceuta</option>
+                        <option value="melilla">Melilla</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                <input type="text" placeholder="Escribe tu número de teléfono">
+                </div>
+
+
+            </fieldset>
+            <fieldset class="nivel">
+                <legend>Nivel de estudios</legend>
+                <input type="radio" name="estudios"> Educación Primaria
+                <input type="radio" name="estudios"> Educación Secundaria
+                <input type="radio" name="estudios"> Bachillerato
+                <input type="radio" name="estudios"> Formación profesional
+                <input type="radio" name="estudios"> Grado Universitario
+                <input type="radio" name="estudios"> Otros
+            </fieldset>
+            <fieldset class="hobbies">
+                <legend>Hobbies e intereses</legend>
+                <input type="checkbox" value="deportes">Deportes
+                <input type="checkbox" value="musica">Música
+                <input type="checkbox" value="espectaculos">Espectáculos
+                <input type="checkbox" value="naturaleza">Naturaleza
+                <input type="checkbox" value="politica">Política
+                <input type="checkbox" value="viajes">Viajes
+                <input type="checkbox" value="fotografia">Fotografía
+                <input type="checkbox" value="tecnologia">Tecnología
+                <input type="checkbox" value="videojuegos">Videojuegos
+                <input type="checkbox" value="museos">Museos
+                <input type="checkbox" value="lectura">Lectura
+                <input type="checkbox" value="gastronomía">Gastronomía
+            </fieldset>
+            <input type="submit">
+
+
+        </form>
+    
+    <footer>
+
+        <div class="container-footer-all">
+
+            <div class="container-body">
+                <div class="column1">
+                    <h2>Más información de la compañía</h2>
+                    <p>
+                        Nuestro grupo se dedica a hacer los mejores trabajos, siempre cumpliendo las expectativas de nuestros profesores. Como tengo que llenar más espacio hablaré también de nuestra profesionalidad y de nuestra entrega a la hora de hacer las actividades
+                    </p>
+                </div>
+    
+                <div class="column2">
+                    <h2>Redes Sociales</h2>
+                    <div class="row">
+                        <img src="imagenes/facebook.png" alt="">
+                        <label for="">Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/google.png" alt="">
+                        <label for="">Siguenos en Google+</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/twitter.png" alt="">
+                        <label for="">Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/linkedin.png" alt="">
+                        <label for="">Siguenos en LinkedIn</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/instagram.png" alt="">
+                        <label for="">Siguenos en Instagram</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/youtube.png" alt="">
+                        <label for="">Siguenos en Youtube</label>
+                    </div>
+                    <div class="row">
+                        <img src="imagenes/pinterest.png" alt="">
+                        <label for="">Siguenos en Pinterest</label>
+                    </div>
+                </div>
+    
+                <div class="column3">
+                    <h2>Información de contacto</h2>
+                    <div class="row2">
+                        <img src="imagenes/direccion.png" alt="">
+                        <label for="">C/ Bruno abundez 37</label>
+                    </div>
+                    <div class="row2">
+                        <img src="imagenes/telefono.png" alt="">
+                        <label for="">+34 666 666 666</label>
+                    </div>
+                    <div class="row2">
+                        <img src="imagenes/email.png" alt="">
+                        <label for="">grupolenguajes@gmail.com</label>
+                    </div>
+                    <div class="row2">
+                        <img src="imagenes/formulario.png" alt="">
+                        <label for=""><a href="contacto.html">Contáctanos con nuestro formulario</a></label>
+                    </div>
+                </div>
+    
+                
+            </div>
+
+            
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyrigth">
+                    © 2021 Todos los Derechos Reservados | Grupo Lenguajes
+                </div>
+                <div class="information">
+                    <a href="#">Información Compañía</a>
+                     | <a href="#">Politica de Privacidad</a>
+                      | <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </footer>
+</body>
+</html>
