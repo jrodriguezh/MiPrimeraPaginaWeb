@@ -3,9 +3,10 @@ body{
     overflow: hidden;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background: #000;
+    background-image: url("/fondoacerca.jpg");
 }
 
+/* Por si queremos poner algunas lineas entre las imágenes
 .strip{
     position: absolute;
     height: 100vh;
@@ -13,8 +14,7 @@ body{
     width: 0.0625rem;
     opacity: .3;
 }
-
-/* Por si queremos poner algunas lineas entre las imágenes
+ 
 .one{
     left: 25%;
 }        
